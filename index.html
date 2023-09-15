@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <link rel="icon" href="https://th.bing.com/th/id/R.f669fe64d4871fa9aeae6cd5e64e8d89?rik=G5BZw3%2fKY6NFIg&riu=http%3a%2f%2flh3.googleusercontent.com%2f4jlq9fgOmpkCikwBzJYkbXlkruFo1ygmaLaaLcLph9ln8sQgQ78P0-6teFkczp1S0N-l%3dw300&ehk=%2fCcD%2blhE8OdorwMORFlndSqCFwZSRHyyIdhaMfhqDu8%3d&risl=&pid=ImgRaw&r=0">
+    <link rel="stylesheet" href="digilocker.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <title>DigiLocker:An Initiative towards paperless governess</title>
+</head>
+<body>
+    <section class="header">
+        <div class="sticky-top">
+            <div class="nav">
+                <div class="nav_left">
+                    <img src="Images/India-flag-a4.jpg" class="ms-5" alt="Indian Flag">
+                <h6 style="font-size: smaller; padding-left: 10px;">Government Of India</h6>
+                </div>
+                <div class="nav_right" >
+                    <p>A+</p>
+                    <P>A</P>
+                    <p>A-</p>
+                    <p>|</p>
+                    <p>लैं</p>
+                    <button class="language btn text-light" onclick="popUpJs()">English</button>
+                </div> 
+            </div>
+            
+            <!-- <div class="head"> -->
+                <nav class="navbar" style="background-color: #fff;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-fluid frstimages" href="#">
+                                <img src="Images/digilocker_logo.png" class="img-fluid" alt="Bootstrap" width="170" height="40">
+                                <img src="Images/dlg20_logo.png" class="ms-3 img-fluid" alt="Bootstrap" width="90" height="35">
+                            </div>
+                        </div>
+                            <div class="nav-item d-flex" style="justify-content: end">
+                                <a href="https://accounts.digilocker.gov.in/signin/smart_v2/a0c8545bdb7d116799d8034b8f9ff736--en"><button class="me-4 btn btn-link link-underline link-underline-opacity-0">Sign In</button></a>
+                                <a href="https://accounts.digilocker.gov.in/signup/smart_v2/a0c8545bdb7d116799d8034b8f9ff736--en"><button style="border-radius: 20px;" class="btn btn-primary px-3">Sign Up</button></a>
+                            </div>
+                    </div>
+            </nav>
+        </div>
+        <div class="container-fluid d-flex justify-content-end">
+            <div class="pop-up">
+                <div class="row ">
+                    <button>English</button>
+                </div>
+                <div class="row">
+                    <button>Hindi</button>
+                </div>
+                <div class="row">
+                    <button>Malayalam</button>
+                </div>
+                <div class="row">
+                    <button>urdu</button>
+                </div>
+                <div class="row">
+                    <button>Kannada</button>
+                </div>
+                <div class="row">
+                    <button>Tamil</button>
+                </div>
+                <div class="row">
+                    <button>Telungu</button>
+                </div>
+                <div class="row">
+                    <button>Marati</button>
+                </div>
+                <div class="row">
+                    <button onclick="closePopUp()">X</button>
+                </div>
+                
+            </div>
+        </div>
+            <!-- div class head1 over -->
+            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                 <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"> <img src="Images/CBSE_class10_marksheet_web.jpg" class="d-block w-100" alt="..."></a>  
+                  </div>
+                  <div class="carousel-item">
+                 <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en">  <img src="Images/CBSE_class12_marksheet_web.jpg" class="d-block w-100" alt="..."></a>  
+                  </div>
+                  <div class="carousel-item">
+                 <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"> <img src="Images/DL-banner-1920-x-450.jpg" class="d-block w-100" alt="..."></a>   
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- head section over -->
+                <div class="row justify-content-center my-5">
+                    <div class="my-4 col-lg-4 col-xl-2 col-md-12 ">
+                        <h3>New In DigiLocker</h3>
+                    </div>
+                    <div class="col-lg-8 col-xl-10 col-md-12 owl-carousel owl-theme"id="here">
+                        <div class="item owlcaroselimage"><img src="Images/promotional-2-v35.png" alt=""></div>
+                        <div class="item owlcaroselimage"><img src="Images/promotional-2-v34.png" alt=""></div>
+                        <div class="item owlcaroselimage"><img src="Images/promotional-3-v30.png" alt=""></div>
+                        <div class="item owlcaroselimage"><img src="Images/promotional-4-v32.png" alt=""></div>
+                        <div class="item owlcaroselimage"><img src="Images/promotional-5-v30.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="container services6 d-flex " >
+                   <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"><div class="row" style="margin-left: 20px;"><p><img src="Images/increase.png" alt=""> covid vaccine certificate</p></div></a>
+                   <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"><div class="row " style="margin-left: 20px;"><p><img src="Images/increase.png" alt=""> Class 12 Marksheet</p></div></a>
+                   <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"><div class="row " style="margin-left: 20px;"><p><img src="Images/increase.png" alt=""> Class X marksheet</p></div></a>
+                   <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"><div class="row " style="margin-left: 20px;"><p><img src="Images/increase.png" alt=""> Driving Lisence</p></div>
+                   <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"><div class="row " style="margin-left: 20px;"><p><img src="Images/increase.png" alt=""> Registration Of Vehicles</p></div></a>
+                   <a href="https://accounts.digilocker.gov.in/signin/smart_v2/88d6d12db6b51e3feeb48281ba8658fd--en"><div class="row " style="margin-left: 20px;"><p><img src="Images/increase.png" alt=""> Ration Card</p></div></a>
+                 </div>
+    </section>
+    <div class="wordandimg" style="background-color: rgb(250, 245, 246); height: auto; margin-top:60px">
+        <section class="container" style="padding-top: 50px;">
+            <div class="row">
+             <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                 <h4>Document Wallet to Empower Citizens</h4>
+                 <br>
+                 <h6 style="line-height: 28px;">DigiLocker is a flagship initiative of Ministry of Electronics & IT (MeitY) under Digital India programme. DigiLocker aims at 'Digital Empowerment' of citizen by providing access to authentic digital documents to citizen's digital document wallet. DigiLocker is a secure cloud based platform for storage, sharing and verification of documents & certificates.</h6>
+             </div>
+             <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-5">
+                <a href="https://www.digilocker.gov.in/statistics"><img src="Images/Digilocker pink image.png" class="img-fluid" alt=""> </a> 
+             </div>
+            </div>
+         </section>
+    </div>
+        <div class="row text-center mt-5 mb-3">
+            <h4>Find Documents based on Categories</h4>
+        </div>
+    <section class="services">
+        <div class="row  justify-content-center">
+            <div class=" justify-content-center servicesimages" style=" margin:5px; width: 140px;">
+                <div class=" text-center"><img src="Images/logo1.png" alt=""></div>
+                <div><p class="text-center">Central Government</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px; ">
+                <div class=" text-center"><img src="Images/logo1.png" alt=""></div>
+                <div><p class="text-center">State Government</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px; ">
+                <div class=" text-center"><img src="Images/DefenceIcon.png" alt=""></div>
+                <div><p class="text-center">Ministry of Defence</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px; ">
+                <div class=" text-center"><img src="Images/Transport.png" alt=""></div>
+                <div><p class="text-center">Transport Department</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px; ">
+                <div class="text-center"><img src="Images/nss.png" alt=""></div>
+                <div><p class="text-center">National Service Scheme</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px; ">
+                <div class=" text-center"><img src="Images/Identity_icon.svg" alt=""></div>
+                <div><p class="text-center">Identity Docs</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px">
+                <div class=" text-center"><img src="Images/EducationIcon.png" alt=""></div>
+                <div><p class="text-center">Education and Learing</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px">
+                <div class=" text-center"><img src="Images/Finance.png" alt=""></div>
+                <div><p class="text-center">Banking and Insurance</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px">
+                <div class=" text-center"><img src="Images/HealthIcon.png" alt=""></div>
+                <div><p class="text-center">Health and Wellness</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px">
+                <div class=" text-center"><img src="Images/others.svg" alt=""></div>
+                <div><p class="text-center">Other Organisation</p></div> 
+            </div>
+            <div class=" justify-content-center servicesimages" style=" margin: 5px; width: 140px">
+                <div class=" text-center"><img src="Images/Populer.png" alt=""></div>
+                <div><p class="text-center">Most Popular Document</p></div> 
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid row  text-center my-4">
+        <div class="col">
+            <button class="btn rounded-pill px-4" style="background-color: rgb(226, 217, 217);"><i class="fa-solid fa-magnifying-glass"></i>VIEW ALL DOCUMENTS</button>
+        </div>
+    </div>
+    <section class="verificationsections mt-5">
+        <div class="container">
+            <div class="row py-5 " style="text-align: center; align-items: center;">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <h2>Getting started Quick and Easy</h2>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-xs-12 " style="text-align: center;">
+                    <div class="rounded-circle"><i class="fa-regular fa-user" style="color: rgb(85, 85, 243);"></i></div>
+                    <p>Register Your self</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-xs-12 " style="text-align: center;">
+                    <div class="rounded-circle"><i class="fa-solid fa-fingerprint" style="color: red;"></i></div>
+                    <p>Register Your self</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-xs-12 " style="text-align: center;">
+                    <div class="rounded-circle"><i class="fa-solid fa-download" style="color: yellow;"></i></div>
+                    <p>Register Your self</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bodyblue">
+       <div class="container">
+        <div class="row px-3" style="text-align: center; align-items: center;">
+            <div class="col-xl-10 col-lg-10 col-md-8 col-sm-12 col-xs-12 my-4 pt-4">
+                <p style="color: white; font-size: large; ">DigiLocker is a secure cloud based platform for storage, sharing and verification of documents & certificates</p>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-xs-12 mb-3 pt-3">
+                <button class="btn btn-light" type="button" >Sing Up Now</button>
+            </div>
+        </div>
+       </div>
+    </section>
+    <section class="bodylast mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class=" row col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 ms-1" style="background-color: rgb(240, 168, 74); border-radius: 15px; justify-content: center;">
+                    <div class="col-xl-7 col-lg-7 pt-5 ps-4">
+                        <h3>Become a DigiLocker Partner Organization</h3>
+                        <h6>Get registered as a DigiLocker Issuer or Requester!</h6>
+                        <button type="button" class="btn btn-light my-4"><h6>GET REGISTERED</h6></button>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 pt-4">
+                        <img src="Images/Group 546.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="d-flex col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 overflow-hidden">
+                    <div class="col qrcode">
+                        <h4>Download DigiLocker App</h4>
+                        <img src="Images/QR Code.svg" class="fluid" alt="">
+                        <div class="stores d-flex" >
+                            <img src="Images/playstore_2.png" alt="">
+                            <img src="Images/ios_1.png" style="padding-left: 10px;" alt="">
+                        </div> 
+                    </div>
+                    <div class="col ">
+                       <img src="Images/phone-mp.png" style="margin-left: -20px;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bodypart over -->
+    <section class=" mt-5" style="background-color: #08192b">
+        <div class="container" >
+            <div class="row pt-5 footer">
+                <div class="col footer_1">
+                    <img src="Images/digilocker-w.png" class="mb-3" alt="">
+                    <p>DigiLocker aims at ‘Digital Empowerment’ of the citizen by providing access to authentic digital documents to the citizen’s digital document wallet.</p>
+                    <h5 style="color: rgb(175, 174, 174);">FOLLOW US</h5>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook" style="color: rgb(99, 99, 248);"></i>
+                        <i class="fa-brands fa-twitter" style="color: #1DA1F2 ;"></i>
+                        <i class="fa-brands fa-linkedin" style="color: rgb(124, 124, 247);"></i>
+                        <i class="fa-brands fa-youtube" style="color: red;"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn text-light">Home</button><br>
+                    <button type="button" class="btn text-light">About</button><br>
+                    <button type="button" class="btn text-light">FAQs</button><br>
+                    <button type="button" class="btn text-light">Statistics</button><br>
+                    <button type="button" class="btn text-light">Resources</button><br>
+                    <button type="button" class="btn text-light">Circulars</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn text-light">Need Help</button><br>
+                    <button type="button" class="btn text-light">Blog</button><br>
+                    <button type="button" class="btn text-light">internship</button><br>
+                    <button type="button" class="btn text-light">Webinars</button><br>
+                    <button type="button" class="btn text-light">Credits</button><br>
+                    <button type="button" class="btn text-light">Partners</button>
+                </div>
+                <div class="col">
+                    <p>Powered by</p>
+                    <img src="Images/digital-india-logo.png" alt="">
+                        <p>Digital India Corporation(DIC)
+                        Ministry of Electronics & IT (MeitY) Government of India</p>
+                       <h5 style="color: rgb(175, 174, 174);">DOWNLOAD APP</h5> 
+                       <div class=" d-flex footerstores">
+                        <img src="Images/playstore_2.png" alt=""> 
+                        <img src="Images/ios_1.png" alt="">
+                       </div>
+                </div>
+            </div>
+            <hr style="color: white;">
+            <div class="row footerdown">
+                <p class="mb-4">website desinged and devoloped by e-Govenrnance division(NeGD)</p>
+            </div>
+           
+        </div>
+
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="digilocker.js"></script>
+
+</body>
